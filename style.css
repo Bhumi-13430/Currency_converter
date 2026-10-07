@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4875a9 0%, #011126 100%);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #011126;
+    text-align: center;
+    font-size: 1.95rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background: #FFFFFF;
+    color: #011126;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 50vh;
+    width: 45vh;
+    box-shadow: 0px 0px 10px 0px #9cc3f5;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+
+}
+
+form input {
+    border: 1px solid #ccc;
+    background: #F8FAFC;
+    font-size: 1rem;
+    height: 2.3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    color: #011126;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 6rem;
+    height: 2.3rem;
+    background-color: #F8FAFC;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+form button {
+    height: 3rem;
+    background: linear-gradient(135deg, #06B6D4 0%, #2563EB 100%);
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+
+form button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px -5px #011126, 0 4px 6px -2px rgba(1, 17, 38, 0.2);
+}
+
+form button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px #011126;
+}
